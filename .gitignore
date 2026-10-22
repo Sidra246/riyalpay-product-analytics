@@ -1,2 +1,18 @@
+﻿# Local database and raw data: too large for GitHub (a file over 100 MB blocks the push).
+# They are published as a Release asset instead; see the README.
+*.db
+*_raw.csv
+data/
 
-*.bak
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Office temporary lock files (created while a .docx is open in Word)
+~$*
+
+# OS / editor
+Thumbs.db
+.DS_Store
+*.tmp
