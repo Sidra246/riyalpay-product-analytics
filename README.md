@@ -44,7 +44,7 @@ Four pages in [`Dashboard-RiyalPay.pbix`](Dashboard-RiyalPay.pbix), also exporte
 | Skill | Where to look |
 |---|---|
 | Event data, tracking plans and validation | [`docs/RiyalPay_Tracking_Plan.pdf`](docs/RiyalPay_Tracking_Plan.pdf), `sql & py scripts/01_profiling.sql` (16 checks) |
-| Advanced SQL on a 1.7M-row event table | `sql & py scripts/01` to `04` (CTEs, window functions, funnel and cohort logic) |
+| SQL on a 1.7M-row event table | `sql & py scripts/01` to `04` (CTEs, joins, conditional aggregation, funnel and cohort logic) |
 | Data cleaning and reconciliation | `sql & py scripts/02_reconcile_and_clean.py` |
 | Funnels, cohorts, retention, feature adoption | `sql & py scripts/03_funnel_cohort_analysis.sql`, dashboard pages 1 to 3 |
 | Experimentation and hypothesis testing | [`notebooks/ab_test_analysis.ipynb`](notebooks/ab_test_analysis.ipynb): SRM check, contamination, z-tests, confidence intervals, power, weekly-effect test |
